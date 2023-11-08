@@ -1,3 +1,4 @@
+
 function setMidtolid() {
     const program = document.querySelector('input[name="animal"]:checked').value;
 
@@ -5,6 +6,7 @@ function setMidtolid() {
     document.getElementById("turtle").setAttribute("class", "hidden");
     document.getElementById("insect").setAttribute("class", "hidden");
     document.getElementById("error").setAttribute("class", "hidden");
+
 
 
     if (program === "apps") {
